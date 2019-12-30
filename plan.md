@@ -16,9 +16,9 @@ SOLID -> S мелкие классы зависящие друг от друга
 - composite и регистрация коллекций (+ коллекции в конструкторе)
 - assert+diagnostics: Lifestyle Mismatches, Short-Circuited Dependencies, Torn/Ambiguous Lifestyles, Disposable Transient Components
 - именованные объекты / conditional
-- декорирование / перехват - общие декораторы
+- CCC + декорирование / перехват - общие декораторы
 - generic + autoscanning
-- ambient context (time/logging - with default local) + CCC
+- ambient context (time/logging - with default local)
 - provider + factory
 - fallback: ResolveUnregisteredType
 
